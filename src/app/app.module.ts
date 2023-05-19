@@ -10,6 +10,10 @@ import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { ListCourseComponent } from './list-course/list-course.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ContentComponent } from './content/content.component';
+import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { ListCourseComponent } from './list-course/list-course.component';
     FooterComponent,
     LoginComponent,
     SignUpComponent,
-    ListCourseComponent
+    ListCourseComponent,
+    PageNotFoundComponent,
+    ContentComponent,
+    ContactComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
