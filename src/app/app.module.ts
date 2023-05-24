@@ -15,6 +15,7 @@ import { ContentComponent } from './content/content.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
+import { SlideShowComponent } from './slide-show/slide-show.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { HomeComponent } from './home/home.component';
     ContentComponent,
     ContactComponent,
     AboutComponent,
-    HomeComponent
+    HomeComponent,
+    SlideShowComponent
   ],
   imports: [
     BrowserModule,

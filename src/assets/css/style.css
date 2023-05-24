@@ -40,6 +40,9 @@
 .logo-reponsive {
   display: none;
 }
+.nav-item {
+  vertical-align: middle;
+}
 @media (max-width: 992px) {
   .container-fluid {
     padding: 0;
